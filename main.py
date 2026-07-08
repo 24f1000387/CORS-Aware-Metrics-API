@@ -50,7 +50,7 @@ async def calculate_statistics(values: str = ""):
     # If the grader passes an empty list, handle it gracefully so math functions don't crash
     if len(parsed_numbers) == 0:
         return {
-            "email": "your-registered-email@example.com", # TODO: put actual email here
+            "email": "24f1000387@ds.study.iitm.ac.in", 
             "count": 0,
             "sum": 0,
             "min": 0,
